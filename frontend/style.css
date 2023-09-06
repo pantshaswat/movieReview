@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #030328;
+    font-family: sans-serif;
+    color: white;
+}
+/* .card h3{
+    text-align: center;
+    color: white;
+} */
+#title{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px;
+    margin: 0;
+}
+.topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #030328;
+    padding: 10px;
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 14px  16px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.topnav .search-container{
+    float: right;
+}
+
+form{
+    border: 1px solid #ccc;
+    background-color: #333;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+input{
+    font-size: 15px system-ui;
+    text-align:start;
+    color: black;
+    width:100%;
+    height: 100%;
+    padding: 5px 8px;
+}
+.thumbnail{
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding:  10px;
+}
+.card {
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #072746;
+    height: 450px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    transform-origin: center bottom;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+#searchText{
+    text-align: center;
+    color: white;
+}
+#foundNumber{
+    text-align: center;
+    color: white;
+}
+.reviewsFor{
+    text-align: center;
+    color: white;
+}
